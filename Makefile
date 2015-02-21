@@ -4,11 +4,11 @@ FW_FILE_2:=0x40000.bin
 
 TARGET_OUT:=image.elf
 OBJS:=user/tpm2net.o \
-	user/ws2812.o \
+	user/tpm2ser.o \
 	user/user_main.o
 
 SRCS:=user/tpm2net.c \
-	user/ws2812.c \
+	user/tpm2ser.c \
 	user/user_main.c 
 
 GCC_FOLDER:=/home/user/esp8266/xtensa-toolchain-build/build-lx106
