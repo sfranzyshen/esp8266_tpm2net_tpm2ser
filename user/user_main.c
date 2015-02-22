@@ -1,6 +1,5 @@
 #include "tpm2ser.h"
 #include "tpm2net.h"
-#include "driver/uart.h"
 
 void user_init(void)
 {
