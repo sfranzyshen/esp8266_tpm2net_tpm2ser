@@ -1,3 +1,7 @@
+#UPDATE: 
+We are consolidating the code into a single driver as it is expanding quickly ... the new code set is locate here:
+https://github.com/sfranzyshen/esp8266_tpm2net 
+
 # esp8266_tpm2net_tpm2ser
 
 This is a custom firmware for the esp8266 wifi module that will output the TPM2SER protocol on the esp8266's uart using the TPM2NET protocol for input. This will create a gateway between the TPM2NET & TPM2SER prtocols allowing for a TPM2SER device (ie. an arduino running fastled) to be controlled over the network using the TPM2NET protocol. This is based on work by Frans (Frans-Willem) ... and others ...
